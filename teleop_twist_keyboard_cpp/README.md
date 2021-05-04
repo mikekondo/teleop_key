@@ -4,8 +4,10 @@ C++ Implementation of the Generic Keyboard Teleop for ROS: https://github.com/ro
 ## 特徴
 
 この実装では、ロボットの速度設定を特定のキーを打つことで調整することが可能である。
+ここではviston社のメカナムローバーとメガローバーに対して実装している
 
-
+https://www.vstone.co.jp/products/wheelrobot/ver2.1.html#mecanumrover2.1
+https://www.vstone.co.jp/products/wheelrobot/ver2.1.html#mecanumrover2.1
 
 ## ノードの実行
 
