@@ -5,17 +5,16 @@ C++ Implementation of the Generic Keyboard Teleop for ROS: https://github.com/ro
 
 この実装では、ロボットの速度設定を特定のキーを打つことで調整することが可能である。
 
-Furthermore, the last command that was sent is reflected, and invalid commands are identified as such.
 
 
 ## ノードの実行
 
 $ roscore
 
-# In another terminal, run
+In another terminal, run
 $ rosrun teleop_twist_keyboard_cpp teleop_twist_keyboard
 
-# If you want to see the outputs, check the /cmd_vel topic
+If you want to see the outputs, check the /cmd_vel topic
 $ rostopic echo /cmd_vel
 ```
 
