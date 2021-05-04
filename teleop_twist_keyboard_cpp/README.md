@@ -1,32 +1,15 @@
 # teleop_twist_keyboard_cpp
 C++ Implementation of the Generic Keyboard Teleop for ROS: https://github.com/ros-teleop/teleop_twist_keyboard
 
-## Features
+## 特徴
 
-This particular implementation does away with keeping the history of previous speed settings, and heavily cuts down on the amount of printing that is done to the terminal via the use of carriage returns (\r).
+この実装では、ロボットの速度設定を特定のキーを打つことで調整することが可能である。
 
 Furthermore, the last command that was sent is reflected, and invalid commands are identified as such.
 
 
+## ノードの実行
 
-## Installing the Package
-
-As per standard ROS practice, make a workspace, go to the workspace's src directory, and clone this repository, then run catkin_make in the root of the workspace, and source the resulting setup.bash!
-
-```bash
-$ git clone https://github.com/methylDragon/teleop_twist_keyboard_cpp.git
-$ cd ..
-$ catkin_make
-
-$ source devel/setup.bash
-```
-
-
-
-## Running the Node
-
-```bash
-# In one terminal, run
 $ roscore
 
 # In another terminal, run
@@ -38,9 +21,7 @@ $ rostopic echo /cmd_vel
 
 
 
-## Usage
-
-Same as the original
+## 利用方法
 
 ```
 Reading from the keyboard  and Publishing to Twist!
