@@ -11,12 +11,10 @@ C++ Implementation of the Generic Keyboard Teleop for ROS: https://github.com/ro
 
 $ roscore
 
-In another terminal, run
 $ rosrun teleop_twist_keyboard_cpp teleop_twist_keyboard
 
-If you want to see the outputs, check the /cmd_vel topic
 $ rostopic echo /cmd_vel
-```
+
 
 
 
