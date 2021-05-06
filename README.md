@@ -12,6 +12,12 @@ teleop_keyはROS用の汎用キーボード操作が可能
 
 32 ビット OS での動作確認はしていないので、必要な場合はご自分で試してください。
 
+# 実行方法
+
+```
+rosrun teleop_twist_keyboard_cpp teleop_twist_keyboard_mega
+```
+
 
 # 使用方法
 
